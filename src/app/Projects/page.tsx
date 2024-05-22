@@ -4,8 +4,15 @@ import 'slick-carousel/slick/slick-theme.css';
 import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
 
+interface Repo {
+  id: number;
+  name: string;
+  description: string;
+  html_url: string;
+}
+
 const CarruselProyectos = () => {
-  const [repos, setRepos] = useState([]);
+  const [repos, setRepos] = useState<Repo[]>([]);
 
   useEffect(() => {
     fetch('https://api.github.com/users/diego422/repos')
@@ -51,9 +58,16 @@ const CarruselProyectos = () => {
             <div key={repo.id} className="card hover:bg-gray-300">
               <h3>{repo.name}</h3>
               <p>{repo.description || 'Sin descripción'}</p>
-              <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
+              <ul>
+                <li><a href={repo.html_url} target="_blank" rel="noopener noreferrer">
                 Ver en GitHub
-              </a>
+              </a></li>
+              <li><a href={repo.html_url + "/archive/refs/heads/main.zip"} target="_blank" rel="noopener noreferrer">
+                Descargar proyecto
+              </a></li>
+              </ul>
+              
+              
             </div>
           ))}
         </Slider>

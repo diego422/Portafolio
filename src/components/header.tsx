@@ -12,13 +12,13 @@ export default function Header() {
         </div>
         <div className="otrasseciones space-x-4 text-white flex items-center">
           <Link href="/Aboutme" className="acercademi transition duration-300 ease-in-out transform hover:scale-110">
-            Acerca de mí
+            Curriculum
           </Link>
           <Link href="/Projects" className="proyectos transition duration-300 ease-in-out transform hover:scale-110">
             Proyectos
           </Link>
           <a href="mailto:diegoherreralopez9@gmail.com" className="calltoaction transition duration-300 ease-in-out transform hover:scale-110">
-            Call To Action
+            Contratame
           </a>
         </div>
       </nav>

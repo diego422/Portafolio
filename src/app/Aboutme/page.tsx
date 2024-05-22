@@ -41,7 +41,7 @@ function AboutMe() {
         </Hero>
 
         <Hero title="Educación"
-        descriptions={["titulo"]}>
+        descriptions={["Conclución "]}>
         </Hero>
 
         <Hero title="Habilidades"
