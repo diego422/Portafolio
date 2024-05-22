@@ -30,10 +30,19 @@ body {
   }
 }
 
+/*HOME*/
+.titulo-hero2{
+  font-family: Arial;
+  font-size: 55px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-bottom: 5px solid white;
+}
+
 /*HEADER*/
 .inicio {
   font-family: 'Arial';
-  font-size: 24px;
+  font-size: 25px;
   font-weight: bold;
   border-bottom: 2px solid white;
 }
@@ -69,13 +78,19 @@ body {
   font-size: 16px;
 }
 
+.titulo-hero{
+  font-family: 'Arial';
+  font-size: 19px;
+}
+
+
 /*Es la parte donde va la imagen*/
 .container2 {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding: 10px;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .nombre{
@@ -83,6 +98,7 @@ body {
   font-family: 'Arial';
   color: black; /* Cambiar el color del texto a negro */
   margin-left: 1rem;
+  margin-top: 25px;
 }
 
 .carrera{
@@ -184,8 +200,6 @@ body {
   font-family: 'Arial';
   margin-left: 90px;
 }
-
-
 
 /*Carrucel*/
 

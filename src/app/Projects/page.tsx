@@ -41,14 +41,14 @@ const CarruselProyectos = () => {
   };
 
   return (
-    <div className="body2 bg-gradient-to-br from-gray-300 to-gray-500-lg">
+    <div className="body2 bg-gradient-to-br from-gray-300 to-gray-500-lg"> {/*Fondo*/}
       <div className="container3">
         <div className='titulorepo'>
           <h2>Repositorios Github</h2>
         </div>
         <Slider {...settings}>
           {repos.map(repo => (
-            <div key={repo.id} className="card">
+            <div key={repo.id} className="card hover:bg-gray-300">
               <h3>{repo.name}</h3>
               <p>{repo.description || 'Sin descripción'}</p>
               <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
