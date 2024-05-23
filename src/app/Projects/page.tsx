@@ -8,7 +8,7 @@ interface Repo {
   id: number;
   name: string;
   description: string;
-  html_url: string;
+  html_url: string;
 }
 
 const CarruselProyectos = () => {
@@ -60,14 +60,13 @@ const CarruselProyectos = () => {
               <p>{repo.description || 'Sin descripción'}</p>
               <ul>
                 <li><a href={repo.html_url} target="_blank" rel="noopener noreferrer">
-                Ver en GitHub
-              </a></li>
-              <li><a href={repo.html_url + "/archive/refs/heads/main.zip"} target="_blank" rel="noopener noreferrer">
-                Descargar proyecto
-              </a></li>
+                  Ver en GitHub
+                </a></li>
+                <li><a href={repo.html_url + "/archive/refs/heads/main.zip"} target="_blank" rel="noopener noreferrer">
+                  Descargar proyecto
+                </a></li>
               </ul>
-              
-              
+
             </div>
           ))}
         </Slider>

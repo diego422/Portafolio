@@ -18,7 +18,7 @@ export default function Header() {
             Proyectos
           </Link>
           <a href="mailto:diegoherreralopez9@gmail.com" className="calltoaction transition duration-300 ease-in-out transform hover:scale-110">
-            Contratame
+            Contrátame
           </a>
         </div>
       </nav>

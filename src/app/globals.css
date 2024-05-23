@@ -31,7 +31,7 @@ body {
 }
 
 /*HOME*/
-.titulo-hero2{
+.titulo-hero2 {
   font-family: Arial;
   font-size: 55px;
   font-weight: bold;
@@ -47,21 +47,22 @@ body {
   border-bottom: 2px solid white;
 }
 
-.otrasseciones { /*acerca de mi, proyectos y call to action*/
+.otrasseciones {
+  /*acerca de mi, proyectos y call to action*/
   font-family: 'Arial';
   font-size: 20px;
   font-weight: bold;
 }
 
-.acercademi{
+.acercademi {
   border-bottom: 2px solid white;
 }
 
-.proyectos{
+.proyectos {
   border-bottom: 2px solid white;
 }
 
-.calltoaction{
+.calltoaction {
   border-bottom: 2px solid white;
 }
 
@@ -78,7 +79,7 @@ body {
   font-size: 16px;
 }
 
-.titulo-hero{
+.titulo-hero {
   font-family: 'Arial';
   font-size: 19px;
 }
@@ -93,43 +94,44 @@ body {
   margin-top: 80px;
 }
 
-.nombre{
+.nombre {
   font-size: 19px;
   font-family: 'Arial';
-  color: black; /* Cambiar el color del texto a negro */
+  color: black;
+  /* Cambiar el color del texto a negro */
   margin-left: 1rem;
   margin-top: 25px;
 }
 
-.carrera{
+.carrera {
   font-size: 19px;
   font-family: 'Arial';
   color: black;
   margin-left: 1rem;
 }
 
-.contactoacercademi{
+.contactoacercademi {
   font-size: 19px;
   font-family: 'Arial';
   color: black;
   margin-left: 1rem;
 }
 
-.telefono-img{
+.telefono-img {
   margin-left: 1rem;
   color: black;
   font-size: 17px;
   font-family: 'Arial';
 }
 
-.email-img{
+.email-img {
   margin-left: 1rem;
   color: black;
   font-size: 17px;
   font-family: 'Arial';
 }
 
-.linkedin{
+.linkedin {
   margin-left: 1rem;
   color: black;
   font-size: 17px;
@@ -143,7 +145,7 @@ body {
   margin-bottom: 10px;
   border-bottom: 2px solid white;
   margin-right: 80px;
-  
+
 }
 
 .redessociales {
@@ -284,7 +286,8 @@ body {
 .slick-prev,
 .slick-next {
   z-index: 1;
-  font-size: 1px; /* Tamaño de fuente más grande para las flechas */
+  font-size: 1px;
+  /* Tamaño de fuente más grande para las flechas */
 }
 
 .slick-dots {

@@ -28,6 +28,6 @@ export default function Hero(props: HeroProps) {
       </div>
     </div>
 
-    
+
   );
 }

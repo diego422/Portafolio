@@ -11,13 +11,13 @@ export default function footer() {
       </div>
       <div className="right-content">
         <div className="contacto">Contactos</div>
-        <div className="flex items-center">
+        <div className="flex items-center transition duration-300 ease-in-out transform hover:scale-110">
           <img src="/images/telefono-footer.png" alt="Teléfono" className="w-6 h-6 mr-2" />
-          <p className="text-white">+506-86436053</p>
+          <a href={`https://wa.me/50686436053`} className="text-white">+506-86436053</a>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center transition duration-300 ease-in-out transform hover:scale-110">
           <img src="/images/email-footer.png" alt="email" className="w-6 h-6 mr-2" />
-          <p className="text-white">diegoherreralopez9@gmail.com</p>
+          <a href="mailto: diegoherreralopez9@gmail.com" className="text-white ">diegoherreralopez9@gmail.com</a>
         </div>
       </div>
       {/* */}
@@ -26,13 +26,13 @@ export default function footer() {
         <div className="flex items-center">
           <a href="https://www.facebook.com/profile.php?id=100005786705952">
             <img src="/images/facebook-footer.png" alt="facebook" className="footer-facebook w-6 h-6 mr-2 
-          transition duration-300 ease-in-out transform hover:scale-110" />{/*el transition es para el zoom*/ }
+          transition duration-300 ease-in-out transform hover:scale-110" />{/*el transition es para el zoom*/}
           </a>
         </div>
         <div className="flex items-center">
           <a href="https://www.linkedin.com/in/diego-herrera-lópez-aa825630b/">
             <img src="/images/likedin-footer.png" alt="likedin" className="footer-linkedin w-6 h-6 mr-2 
-          transition duration-300 ease-in-out transform hover:scale-110" /> {/*el transition es para el zoom*/ }
+          transition duration-300 ease-in-out transform hover:scale-110" /> {/*el transition es para el zoom*/}
           </a>
         </div>
       </div>
