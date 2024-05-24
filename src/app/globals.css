@@ -54,7 +54,7 @@ body {
 }
 
 .otrasseciones {
-  /* acerca de mi, proyectos y call to action */
+  /* acerca de mi, proyectos*/
   font-family: 'Arial';
   font-size: 20px;
   font-weight: bold;
@@ -69,14 +69,22 @@ body {
 /* Estilos responsivos para dispositivos móviles */
 @media (max-width: 768px) {
   .containerheder {
-    padding: 5px;
+    padding: 1rem; /* Reducir el padding para dispositivos móviles */
+  }
+
+  .inicio {
+    font-size: 20px; /* Reducir el tamaño de fuente para dispositivos móviles */
+  }
+
+  .headerlogo-image {
+    max-width: 60px; /* Reducir el tamaño de la imagen para dispositivos móviles */
   }
 
   .otrasseciones {
-    font-size: 16px;
+    font-size: 16px; /* Reducir el tamaño de fuente para dispositivos móviles */
+    gap: 1rem; /* Reducir el espacio entre los enlaces */
   }
 }
-
 
 /*sección acerca de mí*/
 
