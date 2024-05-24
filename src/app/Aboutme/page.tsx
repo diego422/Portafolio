@@ -9,9 +9,9 @@ function Aboutme() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 bg-gradient-to-br from-blue-300 to-gray-500">{/*Donde va la imagen*/}
           <div className="ml-10 mr-10 md:col-span-1">
             <Image
-              src="/images/usuario2.png"
-              width={125}
-              height={100}
+              src="/images/perfil.jpg"
+              width={200}
+              height={200}
               alt="Picture of the author"
               className="rounded-lg"
             />
