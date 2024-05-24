@@ -15,7 +15,7 @@ export default function Hero(props: HeroProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 rounded-lg gap-6 bg-gradient-to-br from-blue-200 to-gray-500">
       <div className="p-10 md:col-span-1 gap-6 bg-gradient-to-br from-blue-300 to-gray-500">
-        <h2 className="titulo-hero text-lg text-black">
+        <h2 className="titulo-hero text-lg text-black text-center mt-9">
           {props.title}
         </h2>
       </div>

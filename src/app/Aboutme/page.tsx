@@ -17,7 +17,7 @@ function Aboutme() {
             />
           </div>
           <div className="md:col-span-2 bg-gradient-to-br from-gray-300 to-gray-500-lg">{/*derecha imagen*/}
-            <h5 className="nombre">Diego Herrera López</h5>
+            <h5 className="nombre">Diego Starling Herrera López</h5>
             <h1 className="carrera">Informático</h1>
             <h1 className="contactoacercademi">Contacto:</h1>
             <div className="telefono-img flex items-center">
@@ -28,25 +28,26 @@ function Aboutme() {
               <img src="/images/email1.png" alt="email" className="w-6 h-6 mr-2" />
               <p className="">diegoherreralopez9@gmail.com</p>
             </div>
-
           </div>
         </div>
       </div>
       <div className="container bg-gray-800 w-full sm:w-3/4 rounded-lg">{/*borde de la segunda columna*/}
         <Hero title="Acerca de mí"
-          descriptions={["Me llamo Diego Herrera López y soy un junior en el campo de redes y comunicación de datos, administración de bases de datos y programación. Actualmente, estoy cursando el tercer año de la carrera de Informática Empresarial, lo que me ha permitido adquirir sólidos conocimientos y habilidades en estas áreas. Mi pasión por la tecnología y la constante evolución del entorno empresarial me impulsan a seguir aprendiendo y desarrollándome profesionalmente. Soy una persona proactiva, con capacidad para adaptarme a nuevos desafíos y trabajar en equipo para alcanzar los objetivos comunes."]}>
+          descriptions={["Me llamo Diego Herrera López y soy un junior en el campo de redes y comunicación de datos, administración de bases de datos y programación. Actualmente, estoy cursando el tercer año de la carrera de Informática Empresarial, lo que me ha permitido adquirir sólidos conocimientos y habilidades en estas áreas. Mi pasión por la tecnología y la constante evolución del entorno empresarial me impulsan a seguir aprendiendo y desarrollándome profesionalmente."]}>
         </Hero>
 
         <Hero title="Formación académica"
-          descriptions={["Conclución "]}>
+          descriptions={["1.Conclusión de Educación Técnica Media en Informática Empresarial, Colegio Técnico Profesional Carlos Manuel Vicente Castro, 2021.",
+            "2.Conclusión de Estudios de la Educación General Básica, Colegio Técnico Profesional Carlos Manuel Vicente Castro, 2018.", "3.Conclusión de Segundo Ciclo de la Educación General Básica, Escuela Álvaro París Steffens, 2015."
+          ]}>
         </Hero>
 
         <Hero title="Habilidades"
-          descriptions={["1.Trabajo en equipo.", "2.Junior en progrmación (Python y Java).", "3."]}>
+          descriptions={["1.Trabajo en equipo.", "2.Junior en progrmación (Python y Java).", "3.Capacidad de adaptación a nuevos entornos y herramientas."]}>
         </Hero>
 
         <Hero title="Experiencia Laboral"
-          descriptions={["1.Práctica supervisada en la Municipalidad de Golfito."]}>
+          descriptions={["1.Práctica supervisada en la Municipalidad de Golfito, Colegio Técnico Profesional Carlos Manuel Vicente Castro, 2021."]}>
         </Hero>
 
       </div>
