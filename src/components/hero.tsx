@@ -19,7 +19,7 @@ export default function Hero(props: HeroProps) {
           {props.title}
         </h2>
       </div>
-      <div className=" md:col-span-2  p-2">
+      <div className="md:col-span-2 p-2" style={{ textAlign: 'justify', lineHeight: '1.5' }}>
         {props.descriptions.map((description, index) => (
           <p key={index} className="text-black mb-3">
             {description}

@@ -39,7 +39,7 @@ body {
   border-bottom: 5px solid white;
 }
 
-/*HEADER*/
+/* HEADER */
 .inicio {
   font-family: 'Arial';
   font-size: 25px;
@@ -48,22 +48,26 @@ body {
 }
 
 .otrasseciones {
-  /*acerca de mi, proyectos y call to action*/
+  /* acerca de mi, proyectos y call to action */
   font-family: 'Arial';
   font-size: 20px;
   font-weight: bold;
 }
 
-.acercademi {
-  border-bottom: 2px solid white;
-}
-
-.proyectos {
-  border-bottom: 2px solid white;
-}
-
+.acercademi,
+.proyectos,
 .calltoaction {
   border-bottom: 2px solid white;
+}
+
+/* Estilos responsivos para dispositivos móviles */
+@media (max-width: 768px) {
+  .containerheder {
+    padding: 5px; /* Ajustar el padding para dispositivos móviles */
+  }
+  .otrasseciones {
+    font-size: 16px; /* Reducir el tamaño de fuente para dispositivos móviles */
+  }
 }
 
 
@@ -98,7 +102,6 @@ body {
   font-size: 19px;
   font-family: 'Arial';
   color: black;
-  /* Cambiar el color del texto a negro */
   margin-left: 1rem;
   margin-top: 25px;
 }
@@ -139,13 +142,11 @@ body {
 }
 
 /*FOOTER*/
-
 .contacto {
   text-align: center;
   margin-bottom: 10px;
   border-bottom: 2px solid white;
   margin-right: 80px;
-
 }
 
 .redessociales {
@@ -201,6 +202,30 @@ body {
   font-size: 15px;
   font-family: 'Arial';
   margin-left: 90px;
+}
+
+/* Estilos responsivos para dispositivos móviles */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .left-content,
+  .right-content,
+  .right-contents {
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+
+  .right-content,
+  .right-contents {
+    margin-left: 0;
+  }
+
+  .footerlogo-image {
+    max-width: 80px;
+  }
 }
 
 /*Carrucel*/

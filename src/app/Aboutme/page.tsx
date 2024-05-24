@@ -34,22 +34,19 @@ function Aboutme() {
       </div>
       <div className="container bg-gray-800 w-full sm:w-3/4 rounded-lg">{/*borde de la segunda columna*/}
         <Hero title="Acerca de mí"
-          descriptions={["Lorem ipsum dolor sit amet",
-            "consectetur adipiscing elit. Phasellus imperdiet ... ",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet"]}>
+          descriptions={["Me llamo Diego Herrera López y soy un junior en el campo de redes y comunicación de datos, administración de bases de datos y programación. Actualmente, estoy cursando el tercer año de la carrera de Informática Empresarial, lo que me ha permitido adquirir sólidos conocimientos y habilidades en estas áreas. Mi pasión por la tecnología y la constante evolución del entorno empresarial me impulsan a seguir aprendiendo y desarrollándome profesionalmente. Soy una persona proactiva, con capacidad para adaptarme a nuevos desafíos y trabajar en equipo para alcanzar los objetivos comunes."]}>
         </Hero>
 
-        <Hero title="Educación"
+        <Hero title="Formación académica"
           descriptions={["Conclución "]}>
         </Hero>
 
         <Hero title="Habilidades"
-          descriptions={["1", "2", "3"]}>
+          descriptions={["1.Trabajo en equipo.", "2.Junior en progrmación (Python y Java).", "3."]}>
         </Hero>
 
         <Hero title="Experiencia Laboral"
-          descriptions={["Experiencia en procrastinación....", "Experiencia en joderle la vida a la gente"]}>
+          descriptions={["1.Práctica supervisada en la Municipalidad de Golfito."]}>
         </Hero>
 
       </div>
