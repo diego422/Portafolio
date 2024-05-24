@@ -126,6 +126,7 @@ body {
   font-family: 'Arial';
   color: black;
   margin-left: 1rem;
+  margin-top: 10px;
 }
 
 .telefono-img {
@@ -142,7 +143,7 @@ body {
   font-family: 'Arial';
 }
 
-.linkedin {
+.linkedin-img {
   margin-left: 1rem;
   color: black;
   font-size: 17px;

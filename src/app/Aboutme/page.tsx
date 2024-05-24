@@ -25,8 +25,16 @@ function Aboutme() {
               <p className="">+506-86436053</p>
             </div>
             <div className="email-img flex items-center">
-              <img src="/images/email1.png" alt="email" className="w-6 h-6 mr-2" />
-              <p className="">diegoherreralopez9@gmail.com</p>
+            <a href="mailto: diegoherreralopez9@gmail.com" className="flex items-center transition duration-300 ease-in-out transform hover:scale-110">
+            <img src="/images/email1.png" alt="email" className="w-6 h-6 mr-2" />
+            <span className="">diegoherreralopez9@gmail.com</span>
+            </a>
+            </div>
+            <div className="linkedin-img flex items-center">
+            <a href="https://www.linkedin.com/in/diego-herrera-lópez-aa825630b/" className="flex items-center transition duration-300 ease-in-out transform hover:scale-110">
+            <img src="/images/linkedin.png" alt="linkedin" className="w-6 h-6 mr-2" />
+            <span className="">LinkedIn</span>
+          </a>
             </div>
           </div>
         </div>
