@@ -63,10 +63,11 @@ body {
 /* Estilos responsivos para dispositivos móviles */
 @media (max-width: 768px) {
   .containerheder {
-    padding: 5px; /* Ajustar el padding para dispositivos móviles */
+    padding: 5px;
   }
+
   .otrasseciones {
-    font-size: 16px; /* Reducir el tamaño de fuente para dispositivos móviles */
+    font-size: 16px;
   }
 }
 
@@ -185,7 +186,6 @@ body {
 
 .footerlogo-image {
   max-width: 100px;
-  /* Aumenta el tamaño máximo de la imagen */
   height: auto;
 }
 
