@@ -15,7 +15,7 @@ const CarruselProyectos = () => {
   const [repos, setRepos] = useState<Repo[]>([]);
 
   useEffect(() => {
-    fetch('https://api.github.com/users/diego422/repos')
+    fetch(`https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos`)
       .then(response => response.json())
       .then(data => setRepos(data))
       .catch(error => console.error('Error fetching GitHub repos:', error));
